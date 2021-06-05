@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+
+	<meta charset = "utf-8" media = "all"/>
+	<link rel = "shortcut icon" href = "logo.ico">	
+	<link rel = "stylesheet" href = "style.css" media = "all"/>	
+	<title>V Simpósio de Engenharias 2018/2</title>
+</head>
+
+<body bgcolor = '#000000'>
+
+	<center>
+	<h1>
+	<font color='#FF8C00' face='Verdana'>
+	FACULDADE PITÁGORAS DE BETIM <br>V Simpósio de Engenharias 2018/2 <br>
+	</font>
+	</h1>
+	<h2>
+	<font color='#FFFFFF' face='Verdana'>
+	CÉDULA DE VOTAÇÃO
+	</font>
+	</h2>
+	</center>
+	<br>
+	
+	<form method='post' name='checkbox_form' id='checkbox_form' onsubmit='return checkbox_checker()' action = "cedulaVotacao.php">
+	
+	<font color='#FFFFFF' face='Verdana' size='5'>
+	
+	<fieldset> 
+		<legend><font color='#FF8C00' face='Verdana'> <b> Engenharia Ambiental: </b></font>  </legend>
+			
+		<p><input type='checkbox' class="largerCheckbox" name='p1' value="1" onclick='setChecks(this)'> CONCRETO PERMEÁVEL <br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p2' value="2" onclick='setChecks(this)'> DESTINAÇÃO SUSTENTÁVEL DO LODO DAS ESTAÇÕES DE TRATAMENTO DE ESGOTO <br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p3' value="3" onclick='setChecks(this)'> IRRIGAÇÃO DO SOLO ATRAVÉS DE LUZ SOLAR <br>
+		
+
+		<p><input type='checkbox' class="largerCheckbox" name='p4' value="4" onclick='setChecks(this)'> PRODUÇÃO DE BIOGÁS A PARTIR DA SUINOCULTURA <br>
+		
+		<p><input type='checkbox' class="largerCheckbox" name='p5' value="5" onclick='setChecks(this)'> SISTEMA DE CAPACITAÇÃO E APROVEITAMENTO DE ÁGUA DA CHUVA <br>
+
+
+		<p><input type='checkbox' class="largerCheckbox" name='p6' value="6" onclick='setChecks(this)'> TECNÓLGIAS PARA O REAPROVEITAMENTO DOS RECURSOS NATURAIS <br>
+
+
+		<p><input type='checkbox' class="largerCheckbox" name='p7' value="7" onclick='setChecks(this)'>  TECNÓLOGIAS DE IRRIGAÇÃO SUSTENTÁVEL <br>
+		
+	</fieldset>   	
+
+		<br>
+
+		<fieldset> 
+		<legend><font color='#FF8C00' face='Verdana'> <b> Engenharia Civil: </b></font>  </legend>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p8' value="8" onclick='setChecks(this)'> DESENVOLVIMENTO SUSTENTÁVEL NA ENGENHARIA: O COPROCESSAMENTO DE RESÍDUOS COMO FONTE ALTERNATIVA DE ENERGIA EM FORNOS DA INDÚSTRIA CIMENTEIRA <br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p9' value="9" onclick='setChecks(this)'> DESENVOLVIMENTO SUSTENTÁVEL NA ENGENHARIA: SISTEMA CONSTRUTIVO BUBBLEDECK <br>
+
+	</fieldset>   	
+	
+		<br>
+
+		<fieldset> 
+		<legend><font color='#FF8C00' face='Verdana'> <b> Engenharia de Controle e Automação: </b></font>  </legend>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p10' value="10" onclick='setChecks(this)'> APLICAÇÃO DE SERVOS MOTORES NA INDÚSTRIA <br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p11' value="11" onclick='setChecks(this)'>  DESENVOLVIMENTO DE UM SOFTPLC PARA A EXECUÇÃO DA LINGUAGEM DE LISTAS DE INSTRUÇÕES (IL) BASEADO NA NORMA IEC 61131-3 <br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p12' value="12" onclick='setChecks(this)'>  INTEGRAÇÃO DE DISPOSITIVOS DE SEGURANÇA EM CÉLULAS ROBOTIZADAS <br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p13' value="13" onclick='setChecks(this)'>  PROCESSO AUTOMATIZADO DE IDENTIFICAÇÃO DE COR E MISTURA DE TINTA <br>
+
+	</fieldset>   
+
+
+		<br>
+
+		<fieldset> 
+		<legend><font color='#FF8C00' face='Verdana'> <b> Engenharia Elétrica: </b></font>  </legend>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p14' value="14" onclick='setChecks(this)'>  BASE GIRATÓRIA PARA PAINÉIS SOLARES<br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p15' value="15" onclick='setChecks(this)'>  CONTROLE DE TEMPERATURA UTILIZANDO AMPLIFICADOR OPERACIONAL<br>
+
+
+		<p><input type='checkbox' class="largerCheckbox" name='p16' value="16" onclick='setChecks(this)'>  CRUISE CONTROL PARA MOTOCICLETAS: O FAMOSO PILOTO AUTOMÁTICO <br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p17' value="17" onclick='setChecks(this)'>  ENERGIA ALTERNATIVA: CÉLULAS FOTOVOLTAICAS <br>
+
+
+
+		<p><input type='checkbox' class="largerCheckbox" name='p18' value="18" onclick='setChecks(this)'>  GAIOLA DE FARADAY<br>
+
+
+
+		<p><input type='checkbox' class="largerCheckbox" name='p19' value="19" onclick='setChecks(this)'>  IMPLEMENTAÇÃO DE UMA NOVA IDENTIFICAÇÃO EM CONDUTORES ELÉTRICOS<br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p20' value="20" onclick='setChecks(this)'>  MAGLEV – MAGNECTIC LEVITATION TRANSPORT (TREM ELETROMAGNÉTICO)<br>
+
+
+
+		<p><input type='checkbox' class="largerCheckbox" name='p21' value="21" onclick='setChecks(this)'>  MOTOR DE CORRENTE CONTÍNUA (DC)<br>
+
+
+
+		<p><input type='checkbox' class="largerCheckbox" name='p22' value="22" onclick='setChecks(this)'>  MOTOR DE CORRENTE CONTÍNUA COM CONTROLE DE VELOCIDADE<br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p23' value="23" onclick='setChecks(this)'>  PAINEL DE CONTROLE COM O USO DA PLATAFORMA ARDUINO<br>
+
+
+		<p><input type='checkbox' class="largerCheckbox" name='p24' value="24" onclick='setChecks(this)'>  PROCEDIMENTO PARA ESPECIFICAÇÃO DE SISTEMAS DE SEGURANÇA EM CÉLULAS ROBOTIZADAS<br>
+
+		<p><input type='checkbox' class="largerCheckbox" name='p25' value="25" onclick='setChecks(this)'>  USO DE CAPACITORES PARA CORREÇÃO DO FATOR DE POTÊNCIA<br>			
+
+			
+		<br><input type = "submit" value = "Enviar Voto" name = "Votar"  style="width: 150px; height: 35px"><br>
+			
+	    <font color='#FF8C00' face='Verdana'>
+	    <p><b><span id='checkCount'></span></b></p>
+		</font>
+	
+	</fieldset>   	
+
+    </font>
+	
+	</form>
+	
+	
+<script language="JavaScript">
+
+<!--
+	
+	var checkCount = 0;
+
+	var maxChecks  = 3;
+	
+	var minChecks  = 1;
+
+	var form = document.getElementById('checkbox_form');
+		
+	function setChecks(obj) 
+	{
+
+		if(obj.checked)
+		{
+			checkCount = checkCount+1
+			document.getElementById('checkCount').innerHTML = 'Total de Votos: ' + checkCount;
+		}
+		else{
+				checkCount = checkCount-1
+				
+			}
+
+		if(checkCount>maxChecks)
+		{
+			obj.checked = false;
+			
+			checkCount = checkCount-1
+			
+
+			document.getElementById('checkCount').innerHTML = 'Total de Votos: ' + checkCount;
+			
+			alert('- Prezado Usuário: ' + '\n' + '- Você pode Votar em apenas 0'  + maxChecks +' projetos.')
+		}
+
+		document.getElementById('checkCount').innerHTML = 'Total de Votos: ' + checkCount;
+	}
+
+	function checkbox_checker()
+	{
+
+		if(checkCount < 3)
+		{
+			alert('- Prezado Usuário: ' + '\n' +'- Você deve Votar em 03 projetos.');
+			return false;
+		}
+	}
+-->
+
+</script>
+
+</body>
+</html>
+
+
+
+  
